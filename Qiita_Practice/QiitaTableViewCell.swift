@@ -14,7 +14,7 @@ class QiitaTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var authorLabel: UILabel!
     
-    //とりあえず仮データを入れる。
+    //とりあえず仮データを入れるで。
     // ②引数にimageUrlを追加
        func set(title: String, author: String, imageUrl: String) {
            // ③Nukeを使用して画像を取得
